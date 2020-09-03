@@ -1,6 +1,6 @@
 package taller3.televisores;
 
-class TV {
+public class TV {
 	Marca marca;
 	int canal=1;
 	int precio=500;
