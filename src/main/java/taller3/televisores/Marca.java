@@ -1,7 +1,7 @@
 package taller3.televisores;
 
-public class Marca {
-	String nombre;
+class Marca {
+	private String nombre;
 	
 	Marca(String nombre){
 		this.nombre = nombre;				
