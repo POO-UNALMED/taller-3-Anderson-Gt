@@ -1,3 +1,4 @@
+
 package taller3.televisores;
 
 public class TV {
@@ -9,7 +10,7 @@ public class TV {
 	private static int numTV;
 	private Control control;
 	
-	TV(Marca marca,boolean estado){
+	public TV(Marca marca,boolean estado){
 		this.marca = marca;
 		this.estado=estado;
 		setNumTV(getNumTV()+1);
@@ -110,3 +111,6 @@ public class TV {
 	
 	
 }
+
+
+
